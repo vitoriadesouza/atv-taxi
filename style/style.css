@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    display:flex;
+    justify-content: space-between;
+}
+header div {
+    display: flex;
+}
+header ul {
+    display: flex;
+    margin: 1vw 1vw 1vw 1vw;
+}
+header div ul li a{
+    text-decoration: none;
+    color: black;
+}
+header div.log ul li a{
+    color: #FBBC05;
+}
+header div.log ul li span a{
+    color: white;
+    background-color: #FBBC05;
+    
+}
